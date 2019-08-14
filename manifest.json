@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2, 
+    "name": "PopupResizer",
+	"description": "Popup Resizer",
+    "version": "0.5",
+
+    "icons": {
+            "16": "image.png",
+            "32": "image.png",
+            "48": "image.png",
+            "64": "image.png",
+            "128": "image.png"
+    },
+	
+    "content_scripts" : [
+        {
+            "matches":["<all_urls>"],
+            "js":["content.js"]
+        }
+    ]    
+}
