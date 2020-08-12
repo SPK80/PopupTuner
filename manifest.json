@@ -1,8 +1,8 @@
 {
     "manifest_version": 2, 
-    "name": "PopupResizer",
-	"description": "Popup Resizer",
-    "version": "0.5",
+    "name": "PopupTweaker",
+	"description": "Popup Tweaker",
+    "version": "1.2",
 
     "icons": {
             "16": "image.png",
