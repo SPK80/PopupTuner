@@ -6,12 +6,12 @@ window.onload = () => {
 		var wi = document.getElementsByTagName('html')[0].scrollWidth * 1.3 + 50;
 		var he = document.getElementsByTagName('html')[0].scrollHeight * 1.3 + 50;
 		//resize window
-		console.log('PopupTweaker resize window');
+		// console.log('PopupTweaker resize window');
 		window.resizeTo(wi, he);
 
 		var tas = document.getElementsByTagName("textarea");
 		if (tas.length > 0) {
-			console.log('PopupTweaker focus textarea');
+			// console.log('PopupTweaker focus textarea');
 			tas[0].focus();
 		}
 
@@ -21,7 +21,7 @@ window.onload = () => {
 			while (i < tas.length) {
 				var type = tas[i].getAttribute("type");
 				if (type == "text" && !tas[i].hasAttribute("disabled")) {
-					console.log('PopupTweaker focus input');
+					// console.log('PopupTweaker focus input');
 					tas[i].focus();
 					break;
 				}
