@@ -1,5 +1,5 @@
 //works when window loaded
-// console.log('PopupTweaker');
+// console.log('PopupTuner');
 window.onload = () => {
 	//if window is not fullscreen
 	if (window.outerWidth < screen.availWidth && window.outerHeight < screen.availHeight) {
